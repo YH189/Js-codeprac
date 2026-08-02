@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(228, 228, 228);
+}
+#countlable {
+  display: block;
+  text-align: center;
+  font-family: monospace;
+  font-size: 200px;
+}
+#buttons {
+  text-align: center;
+}
+#decreasebtn {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  height: 30px;
+  width: 130px;
+  border: 1px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: backgroud-color, transfomr0.15s;
+}
+#decreasebtn:active {
+  background-color: rgb(105, 105, 105);
+  transform: scale(0.98);
+}
+#decreasebtn:hover {
+  background-color: rgb(105, 105, 105);
+}
+#resetbtn {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  height: 30px;
+  width: 130px;
+  border: 1px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: backgroud-color, transfomr0.15s;
+}
+#resetbtn:active {
+  background-color: rgb(105, 105, 105);
+  transform: scale(0.98);
+}
+#resetbtn:hover {
+  background-color: rgb(105, 105, 105);
+}
+#increasebtn {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  height: 30px;
+  width: 130px;
+  border: 1px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: backgroud-color, transfomr0.15s;
+}
+#increasebtn:active {
+  background-color: rgb(105, 105, 105);
+  transform: scale(0.98);
+}
+#increasebtn:hover {
+  background-color: rgb(105, 105, 105);
+}
